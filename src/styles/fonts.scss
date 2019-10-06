@@ -1,0 +1,22 @@
+$extra-light: url('./fonts/TitilliumWeb-ExtraLight.tff') format('ttf');
+$regular: url('./fonts/TitilliumWeb-Regular.tff') format('ttf');
+$semi-bold: url('./fonts/TitilliumWeb-SemiBold.tff') format('ttf');
+
+$font-family-soft: 'Titillium-ExtraLight';
+$font-family: 'Titillium';
+$font-family-heavy: 'Titillium-SemiBold';
+
+@font-face {
+    font-family: $font-family-soft;
+    src: $extra-light;
+}
+
+@font-face {
+    font-family: $font-family;
+    src: $regular;
+}
+
+@font-face {
+    font-family: $font-family-heavy;
+    src: $semi-bold;
+}
